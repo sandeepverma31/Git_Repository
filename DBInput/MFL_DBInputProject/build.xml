@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <project name="project" default="run">
 	<target name="run" description="">
-		<property name="toolkit.home" value="C:\Program Files\IBM\IntegrationToolkit90" />
-		<property name="workspaces.dir" value="C:\Godfrey\Workspaces\IIBT9Workspace" />
-		<property name="runtime.dir" value="C:\Program Files\IBM\MQSI\9.0.0.2\bin" />
-		<property name="appln.name" value="MFA_AggregationStockQuote" />
+		<property name="toolkit.home" value="C:\Program Files (x86)\IBM\IntegrationToolkit90" />
+		<property name="workspaces.dir" value="E:\IIBWorkspace" />
+		<property name="runtime.dir" value="C:\Program Files\IBM\MQSI\9.0.0.0\bin" />
+		<property name="appln.name" value="MFL_DBInputProject" />
 		<property name="bar.name" value="${workspaces.dir}\${appln.name}\${appln.name}.bar" />
-		<property name="Brokername" value="WBRK" />
+		<property name="Brokername" value="IB9NODE" />
 		<property name="execution.group" value="default" />
 		<antcall target="mqsideploybar" />
 	</target>

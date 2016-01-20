@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>MFA_AggregationStockQuote</name>
+	<name>MFA_DBInputNode</name>
 	<comment></comment>
 	<projects>
-		<project>MFL_StockQuote</project>
+		<project>MFL_DBInput</project>
+		<project>OracleLocal</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
@@ -95,6 +96,5 @@
 	<natures>
 		<nature>com.ibm.etools.msgbroker.tooling.applicationNature</nature>
 		<nature>com.ibm.etools.msgbroker.tooling.messageBrokerProjectNature</nature>
-		<nature>com.ibm.etools.mft.bar.ext.barnature</nature>
 	</natures>
 </projectDescription>
