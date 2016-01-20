@@ -6,8 +6,8 @@
 		<property name="runtime.dir" value="C:\Program Files\IBM\MQSI\9.0.0.0\bin" />
 		<property name="appln.name" value="MFL_DBInputProject" />
 		<property name="bar.name" value="${workspaces.dir}\${appln.name}\${appln.name}.bar" />
-		<property name="Brokername" value="IB9NODE" />
-		<property name="execution.group" value="default" />
+		<property name="Brokername" value="IIB.INT" />
+		<property name="execution.group" value="defaultTest" />
 		<antcall target="mqsideploybar" />
 	</target>
 
