@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project name="project" default="run">
+<project name="MFL_DBInputProject" default="run">
 	<target name="run" description="">
 		<property name="toolkit.home" value="C:\Program Files (x86)\IBM\IntegrationToolkit90" />
 		<property name="workspaces.dir" value="E:\IIBWorkspace" />
