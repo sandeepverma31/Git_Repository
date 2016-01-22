@@ -28,7 +28,7 @@
 	<!--Target to deploy the broker archive using mqsideploybar-->
 	<target name="mqsideploybar" depends="mqsicreatebar.buildbar">
 		<echo message="Deploying Broker Archive file: ${bar.name} " />
-		<exec executable="${runtime.dir}\mqsideployscript.bat" spawn="false">
+		<exec executable="${toolkit.home}\mqsideploy.exe" spawn="false">
 			<arg value="${Brokername}" />
 			<arg value="-e" />
 			<arg value="${execution.group}" />
