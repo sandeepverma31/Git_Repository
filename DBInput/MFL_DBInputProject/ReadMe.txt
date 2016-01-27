@@ -13,3 +13,4 @@ UPDATE DBINPUT_CUSTOMER SET FIRSTNAME = 'Barney', LASTNAME = 'Rubble' WHERE PKEY
 
 Script to delete a row in the database
 DELETE FROM DBINPUT_CUSTOMER WHERE PKEY='cust1';
+test
